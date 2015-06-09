@@ -1,206 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 
-    <head>
-  <!-- Designed by Dylan Modesitt in Atherton, California.  -->
-  <!-- MSC -->
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<head>
+
     <meta charset="utf-8">
-    <meta name="generator" content="Bootply" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- SEO -->
+      <!-- SEO -->
     <title>Declassified and Ratified</title>
 
     <meta name="description" content="Unbiased, Government Documents Search">
     <meta name="author" content="Dylan Modesitt, Ethan Feiber">
     <meta name="keywords" content="Declassified and Ratified, Unbiased, Government Documents Search, Search Government, Government Search Engine, DR, Declassafied Ratafied, gov doc search">
-        
-  <!-- Bootstrap Core CSS - Uses Bootswatch Paper Theme: http://bootswatch.com/paper/ -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-    <link href="css/styles.css" rel="stylesheet">
-
-  <!-- Font Awesome -->
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Icons and Branding -->
-    <link rel="shortcut icon" href="img/eagle.png"> 
-    <link rel="apple-touch-icon" href="img/eagle.png">
+    <link rel="shortcut icon" href="assets/img/eagle.png"> 
+    <link rel="apple-touch-icon" href="assets/img/eagle.png">
 
+    <!-- Bootstrap Core CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 
-        <!--[if lt IE 9]>
-            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+    <!-- Custom CSS -->
+    <link href="assets/css/the.css" rel="stylesheet">
 
-  <!-- Google Analytics -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-  ga('create', 'UA-62874709-1', 'auto');
-  ga('send', 'pageview');
-</script>
+      <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-62874709-1', 'auto');
+          ga('send', 'pageview');
+        </script>
 
 </head>
 
 <body>
-<div id="wrapper"
-<!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+
+    <!-- Navigation -->
+   <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand blue full" href="index.html">Declassified and Ratified</a>
-                <a class="navbar-brand blue mobile" href="index.html">D&R</a>
+                <a class="navbar-brand hidden-xs" href="index.html">Declassified and Ratified</a>
+                <a class="navbar-brand visible-xs" href="#">D&amp;R</a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Search</a>
                     </li>
-                    <li class="page-new">
-                        <a class="blue" href="http://declassifiedandratified.com/index.html">Search</a>
+                    <li>
+                        <a href="articles">Articles</a>
                     </li>
-                    <li class="page-new">
-                        <a class="blue" href="http://declassifiedandratified.com/articles/">Articles</a>
+                     <li>
+                        <a href="about.html">About</a>
                     </li>
-                    <li class="page-new">
-                        <a class="blue active" href="http://declassifiedandratified.com/about.html">About</a>
+                    <li>
+                        <a href="contact.html">Contact</a>
                     </li>
-                    <li class="page-new">
-                        <a class="blue" href="http://declassifiedandratified.com/legal.html">Legal</a>
+                </ul>
+                <ul class="nav navbar-nav navbar-mid">
+
+                </ul>
+                 <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="privacy.html">Privacy</a>
                     </li>
-                    <li class="page-new">
-                        <a class="blue" href="http://declassifiedandratified.com/contact.html">Contact</a>
+                    <li>
+                        <a href="terms.html">Terms</a>
                     </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
-          </div>
-        <!-- /.container-fluid -->
+        </div>
+        <!-- /.container -->
     </nav>
-
-
-<!-- Content -->
-
-<section id="contact">
-        <div class="container">
-
-
- <div class="row">
+    <!-- Page Content -->
+    
+    <div id="about" class="container">
+    <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="blue">About</h2>
-                    <hr class="primary">
+                    <hr class="small">
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <p class="about blue">
-
-Declassified and Ratified serves as a search engine focused on Government Documents and information. The site searches over 10,000 URLs that provide useful, timely, citizen-centered government information and services. We deliver unbiased content, simply providing a filtered access to government based information. Please Enjoy. 
-
-</p>
-                    
-
+                        Declassified and Ratified serves as a search engine focused on Government Documents and information. The site searches over 10,000 URLs that provide useful, timely, citizen-centered government information and services. We deliver unbiased content, simply providing a filtered access to government based information. Please Enjoy. 
+                        </p>
                 </div>
             </div>
- <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="blue">Sources</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p class="about blue">
-
-Declassified and Ratified links to websites that provide useful, timely, citizen-centered government information and services consistent with our <a href="list_of_sources.html">list of sources</a>
-<br><br>
-Declassified and Ratified searches across all federal, state, local, tribal, and territorial government websites. Most government websites end in .gov or .mil, but many end in .com, .org, .edu, or other top-level domains.
-</p>
-                    
-                </div>
-            </div>
-
- <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="blue">Technical</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p class="about blue">
-
-Declassified and Ratified uses the Google Custom Search API for searching the over 10,000 urls that are filtered through the search engine. The website uses bootstrap as a css framework, and JS libraries that include jQuery. Open source JS projects such as “classie” and “animatedheaders” are used as well. For any technical questions, please visit the contact page.
-</p>
-                    
-                </div>
-            </div>
- <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="blue">Inception</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <p class="about blue">
-
-Declassified and Ratified started out, as many inventions have, with a problem. Browsing the internet one day, I attempted to find an online database of government files to sift through, perhaps procrastinate a couple minutes with. My search was fruitless, and the fact that the U.S. government did not provide a comprehensive database of declassified files astonished me. In fact, I found a link to ancestry.com on an official government website. It was at this point that I, Ethan F., contacted Dylan Modesitt in order to provide a solution to this problem. From this point, and apologies for the cliche, the rest was history. The D&R website you see now was designed and implemented by Dylan Modesitt. 
-<br><br>
-The search archives more than 10,000 government affiliated websites and websites providing official government documents to give you the documents you are looking for. At this point, you may be wondering what motivated us to create this website. The answer lies in our philosophy regarding the government. We believe that the government should be as open and willing to share federal documents and information to the public as possible, in order to create more educated voters in America. Both being blind to the faults of the United States and being blind to the good deeds of the United States is wrong. Although we hold our own political views, we are attempting to convince you of no particular political conviction with this website. We only hope that by becoming more informed you can form an educated political stance, whether it be conservative or liberal. 
-<br><br>
-To give you more information about us, we are Dylan Modesitt and Ethan F., two high school students in the Bay Area of California. Dylan has a website contact form and a portfolio at <a href="http://www.dylanmodesitt.com/">dylanmodesitt.com</a>. If you wish to contact us with ideas or comments, please visit the contact page. We hope you enjoy.
-
-</p>
-                    
-
-                </div>
-            </div>
+             <div class="row">
+                            <div class="col-lg-12 text-center">
+                                <h2 class="blue">FAQ</h2>
+                            </div>
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <ul class="list-unstyled">
+                                    <li><a href="#Whynotgoogle?">Why not google?</a></li>
+                                    <li><a href="#Whatareyoursources?">What are your sources? </a></li>
+                                    <li><a href="#Ifoundsomethingcool,wheredoIgo?">I found something cool, where do I go?</a></li>
+                                    <li><a href="#Ifoundsearchresultsthataren’tpertainingtogovernmentdocuments.">I found search results that aren’t pertaining to government documents.</a></li>
+                                    <li><a href="#Why’dallthisgetstarted?">Why’d all this get started?</a></li>
+                                    <li><a href="#Ihavealegalquestion,howdoIgetintouch?">I have a legal question, how do I get in touch?</a></li>
+                                <hr class="small">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <p class="about blue">
+                                <strong id="Whynotgoogle?">Why not google?</strong>
+                                <br>
+                                <br>
+                                Google is great… for other things. Declassified and Ratified is a niche tool served to taylor search results based on finding information about federal governments. These documents and official data are buried elsewhere. We use google’s cse engine to provide the absolute best searching experience, so it is google in a sense, just a very specific way to search. We hope you enjoy our tool. 
+                                <br>
+                                <br>
+                                <strong id="Whatareyoursources?">What are your sources?</strong>
+                                <br>
+                                <br>
+                                Declassified and Ratified links to websites that provide useful, timely, citizen-centered government information and services consistent with our list of sources 
+                                Declassified and Ratified searches across all federal, state, local, tribal, and territorial government websites. Most government websites end in .gov or .mil, but many end in .com, .org, .edu, or other top-level domains.
+                                <br>
+                                <br>
+                                <strong id="Ifoundsomethingcool,wheredoIgo?">I found something cool, where do I go?</strong>
+                                <br>
+                                <br>
+                                Thats awesome! Thanks for using our search engine. Some of our favorite places to share things are reddit and 4chan; however, you can always contact us with something cool. You can even write a little something about it and maybe we will put it as one of D&R’s articles!
+                                <br>
+                                <br>
+                                <strong id="Ifoundsearchresultsthataren’tpertainingtogovernmentdocuments.">I found search results that aren’t pertaining to government documents.</strong>
+                                <br>
+                                <br>
+                                Declassified and Ratified searches over 10,000 URLs, many of which are news sources. These sources may report on various things, regardless of what their main niche is. The reason for including these sources is to give the user the most primary information available. 
+                                <br>
+                                <br>
+                                <strong id="Why’dallthisgetstarted?">Why’d all this get started?</strong>
+                                <br>
+                                <br>
+                                Declassified and Ratified started out, as many inventions have, with a problem. Browsing the internet one day, I attempted to find an online database of government files to sift through, perhaps procrastinate a couple minutes with. My search was fruitless, and the fact that the U.S. government did not provide a comprehensive database of declassified files astonished me. In fact, I found a link to ancestry.com on an official government website. It was at this point that I, Ethan F., contacted Dylan Modesitt in order to provide a solution to this problem. From this point, and apologies for the cliche, the rest was history. The D&R website you see now was designed and implemented by Dylan Modesitt. 
+                                <br>
+                                <br>
+                                The search archives more than 10,000 government affiliated websites and websites providing official government documents to give you the documents you are looking for. At this point, you may be wondering what motivated us to create this website. The answer lies in our philosophy regarding the government. We believe that the government should be as open and willing to share federal documents and information to the public as possible, in order to create more educated voters in America. Both being blind to the faults of the United States and being blind to the good deeds of the United States is wrong. Although we hold our own political views, we are attempting to convince you of no particular political conviction with this website. We only hope that by becoming more informed you can form an educated political stance, whether it be conservative or liberal. 
+                                <br>
+                                <br>
+                                To give you more information about us, we are Dylan Modesitt and Ethan F., two high school students in the Bay Area of California. Dylan has a website contact form and a portfolio at dylanmodesitt.com. If you wish to contact us with ideas or comments, please visit the contact page. We hope you enjoy.
+                                <br>
+                                <br>
+                                <strong id="Ihavealegalquestion,howdoIgetintouch?">I have a legal question, how do I get in touch?</strong>
+                                <br>
+                                <br>
+                                Email <a href="mailto:legal@declassifiedandratified.com">legal@declassifiedandratified.com</a> for any legal queries. Remember though, documents or sources are removed from this site only by order served directly by a US court having jurisdiction. Thanks!
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                </p><p class="text-center"><strong>Thanks for using Declassified and Ratified!</strong>
+                                            
+                                </p>
+                                
+                            </div>
+                        </div>
 
 
 
         </div>
-    </section>
-
-<!-- Footer -->
-    <footer class="footer">
-    	<div class="row">
-            <div class="col-lg-12">
-            <br>
-              <div class="row">
-                <h6 class="white col-sm-12 footerelement">Designed By <a href="http://dylanmodesitt.com/"> Dylan Modesitt</a> and Ethan F.</p></h6>
-              </div>
-            <br>
-            </div>
-        </div>
-    </footer>
-    </div>
-
-	   <!-- script references -->
-
-       <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+     <!-- Custome JS -->
+    <script src="assets/js/the.js"></script>
 
-    <!-- Custom JavaScript -->
-    <script src="js/the.js"></script>
+</body>
 
-
-	</body>
 </html>
